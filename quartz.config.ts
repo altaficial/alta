@@ -18,6 +18,7 @@ const config: QuartzConfig = {
     baseUrl: "www.craft.altaficial.com",
     ignorePatterns: ["private", "templates"],
     defaultDateType: "created",
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
